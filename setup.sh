@@ -6,3 +6,5 @@ touch ~/.streamlit/config.toml
 streamlit config show > ~/.streamlit/config.toml
 #override the config 
 mkdir -p ~/.streamlit/echo "[server]\n headless = true\n port = $PORT\n enableCORS = false\n \n" > ~/.streamlit/config.toml
+
+echo PORT $PORT
